@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Signika-Light
+font link: https://fonts.google.com/specimen/Signika
+font author: Anna Giedryś
+font author site: http://ancymonic.com/
+Slogan Font: WorkSans-Light.ttf
+
+{"bg":"#0D9E86","icon":"#FBE1D5","font":"#FFFFFF","slogan":"#ffffff"}
+      

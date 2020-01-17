@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="index.css">
+    <title>NOP!</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- ----------- -->
+        <!-- <div class="container header"> -->
+        <!-- mettre un logo(image)-->
+        <!-- <img class="logo" src="images/cover.png" alt="logo"> -->
+        <!-- mettre une navbar avec des liens-->
+        <nav>
+            <div class="content">
+                <img class="logo" src="images/default-monochrome-white.svg">
+                <div class="links">
+                    <a href="#"> Products</a>
+                    <a href="#"> Services</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+                <i class="material-icons menu" onclick="menu()">menu</i>
+            </div>
+            <!-- create a button menu-->
+            <div class="dropdown">
+                <a href=".activities">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href=".contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- our activities ----------- -->
+        <div class="container activities">
+            <div class="stimulating">
+                <figure>
+                    <h1>Empower your body</h1>
+                    <img class="img_gallery" src="images/appareil-delectrostimulation-innovagoods-electrostimulateur-musculaire-pulse_1_v1.jpeg">
+                </figure>
+            </div>
+            <div class="wellness">
+                <figure>
+                    <h1>Wellness body</h1>
+                    <img class="img_gallery" src="images/savon-noir-gommage-biologique-tradionnel1.jpg"> /
+                    <figure>
+            </div>
+            <div class="diet">
+                <figure>
+                    <h1>Fulfilled your food</h1>
+                    <img class="img_gallery" src="images/vegetarian-lot-de-3-flacons-zinc-citrate-vitamine-b12-methylcobalamine.jpg">
+                </figure>
+            </div>
+        </div>
+        <!-- expose the problem ----------- -->
+        <div class="container video ">
+
+        </div>
+        <!-- our proposition value----------- -->
+        <div class="container proposition ">
+
+        </div>
+        <!-- Contact us with a form----------- -->
+        <div class="container contact ">
+
+        </div>
+        <!-- footer copyright ----------- -->
+        <div class="container footer "></div>
+        <!-- </div> -->
+    </div>
+</body>
+<script>
+    var dropdown = document.querySelector('nav .dropdown');
+    var button = document.querySelector('nav .menu');
+
+    function menu() {
+        if (dropdown.style.display === "grid ") {
+            dropdown.style.display = "none ";
+            button.innerHTML = "menu ";
+        } else {
+            dropdown.style.display = "grid ";
+        }
+    }
+    addEventListener("resize ", function() {
+        if (window.innerWidth > 700) {
+            dropdown.style.display = "none ";
+            button.innerHTML = "menu ";
+
+        }
+    })
+
+    addEventListener("resize", function() {
+        if (window.innerWidth < 700) {
+            img_gallery.style.display
+        }
+    })
+</script>
+
+</html>
