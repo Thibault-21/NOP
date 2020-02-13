@@ -76,6 +76,13 @@ nav .dropdown a:hover {
     background-color: rgb(206, 206, 206);
 }
 
+img {
+    border-radius: 5px;
+}
+
+p {
+    color: black;
+}
 @media only screen and (max-width:700px) {
     nav .content .menu {
         display: initial;
@@ -147,6 +154,7 @@ h1 {
     border-radius: 5px;
 }
 
+
 @media only screen and (max-width:700px) {}
 
 .wrapper {
@@ -155,33 +163,3 @@ h1 {
 }
 
 
-/*
-.img {
-    width: 100px;
-    height: 10%;
-}
-
-.activities {
-    grid-area: activities;
-}
-
-.video {
-    grid-area: video;
-}
-
-.proposition {
-    grid-area: proposition;
-}
-
-.contact {
-    grid-area: contact;
-}
-
-.footer {
-    grid-area: footer;
-}
-
- .header,
-.footer {
-    background-color: #999;
-} */
